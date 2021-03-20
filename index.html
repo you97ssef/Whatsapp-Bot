@@ -40,8 +40,10 @@
 
     <script src="jquery-3.6.0.js"></script>
     <script>
+        //Get api key https://app.chat-api.com/
         var token = '';
         var instanceId = '';
+        //-------------------------------------
         var url = `https://api.chat-api.com/instance${instanceId}/message?token=${token}`;
         $(document).ready(function () {
             $("#sm").on("click", function () {
